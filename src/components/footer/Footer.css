@@ -1,0 +1,19 @@
+#footerContainer {
+    background-color: #ffb703;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerItems {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.footerItems a {
+    text-decoration: None;
+    color: #14213d;
+    font-size: 70px;
+}

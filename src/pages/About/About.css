@@ -1,0 +1,14 @@
+.aboutContainer {
+    background-color: #e5e5e5;
+    color: black;
+
+}
+
+#profileImg {
+    width: 250px;
+
+}
+
+.aboutItems {
+    margin-top: 2rem;
+}

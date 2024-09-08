@@ -1,0 +1,8 @@
+.portfolioContainer {
+    background-color: #e5e5e5;
+    /* #ffb703; */
+    padding: 1.5rem;
+    display: grid;
+    grid-area: content;
+    color: black;
+}
