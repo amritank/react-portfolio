@@ -1,14 +1,29 @@
-.aboutContainer {
+.aboutParentContainer {
     background-color: #e5e5e5;
     color: black;
+    min-height: 100vh;
 
+}
+
+.aboutContainer {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #profileImg {
     width: 250px;
-
+    text-align: center;
+    margin: 0 auto;
 }
 
 .aboutItems {
     margin-top: 2rem;
+    text-align: left;
+}
+
+.aboutItemsHeader {
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
 }

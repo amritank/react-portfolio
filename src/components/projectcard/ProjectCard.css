@@ -1,9 +1,16 @@
-#projectCardContainer {
+/* #projectCardContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 250px;
     justify-items: center;
     grid-gap: 1rem;
+} */
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
 }
 
 
@@ -11,14 +18,16 @@
     font-size: 22px;
     font-weight: bolder;
     display: none;
+    padding-left: 2px;
 }
 
 .projectcmn {
-    display: flex;
-    width: 500px;
-    gap: 1rem;
+    flex: 0 1 400px;
+    height: 10rem;
+    border: 1px solid black;
     background-size: cover;
     background-position: center;
+    margin-bottom: 1rem;
 }
 
 #project1 {
@@ -26,7 +35,7 @@
 }
 
 #project3 {
-    background-image: url("/tech-blog.jpg");
+    background-image: url("/kit.png");
 
 }
 
@@ -35,14 +44,12 @@
 }
 
 #project4 {
-    background-image: url("/tech-blog.jpg");
+    background-image: url("/weatherapp.png");
 }
 
 #project5 {
-    background-image: url("/bravissimo.jpg");
+    background-image: url("/taskboard.png");
 }
-
-
 
 
 #project1:hover {

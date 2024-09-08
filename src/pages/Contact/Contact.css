@@ -1,0 +1,32 @@
+.contactParentContainer {
+    background-color: #e5e5e5;
+    color: black;
+    height: 100vh;
+
+}
+
+.contactContainer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contactHeader {
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.formLbls {
+    display: block;
+    font-weight: bolder;
+}
+
+.formControls {
+    width: 80%;
+}
+
+.formbtn {
+    background-color: #14213d;
+    color: white;
+    padding: 1rem;
+}

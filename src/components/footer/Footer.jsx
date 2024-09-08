@@ -16,9 +16,9 @@ const styles = {
 
 function Footer() {
     return (
-        <Footer id="footerContainer">
+        <div className="container-fluid d-flex footerContainer">
             <div id="footerItems">
-                {/* <a href="https://github.com/amritank" target="_blank" style={styles.footerIcons}>
+                <a href="https://github.com/amritank" target="_blank" style={styles.footerIcons}>
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a href="https://www.linkedin.com/in/amrita-nair-b04259314/" target="_blank" style={styles.footerIcons}>
@@ -26,9 +26,9 @@ function Footer() {
                 </a>
                 <a href="https://dev.to/amrita_nair_d7c550f076501" target="_blank" style={styles.footerIcons}>
                     <FontAwesomeIcon icon={faDev} />
-                </a> */}
+                </a>
             </div>
-        </Footer >
+        </div>
     );
 }
 

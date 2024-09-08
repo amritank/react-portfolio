@@ -8,14 +8,13 @@
 
 }
 
-.navContainer .left {
+.left {
     align-self: center;
     padding: 1.5rem;
     /* First column in the header */
 }
 
-.navContainer .right {
-    justify-content: end;
+.right {
     align-self: center;
     padding: 1.5rem;
 
@@ -41,10 +40,9 @@ li a {
     background-color: #ffb703;
 }
 
-.nav-link-active {
-    color: black;
+.font-white {
+    color: #fff;
 }
-
 
 /* 
 .nav{

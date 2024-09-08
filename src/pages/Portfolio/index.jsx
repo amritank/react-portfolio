@@ -4,10 +4,12 @@ import './Portfolio.css'
 function Portfolio() {
     const projectNames = ["techblog", "bravissimo"]
     return (
-        <div className="portfolioContainer">
-            <h1 className="baskervville-sc-regular">Portfolio Page</h1>
-            <ProjectCard />
-            {/* <ProjectCard projects={projectNames} /> */}
+        <div className="portfolioParentContainer">
+            <div className="portfolioContainer">
+                <h3 className="portfolioHeader">Portfolio Page</h3>
+                <ProjectCard />
+                {/* <ProjectCard projects={projectNames} /> */}
+            </div>
         </div>
     );
 }

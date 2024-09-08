@@ -1,0 +1,17 @@
+.resumeParentContainer {
+    background-color: #e5e5e5;
+    color: black;
+    min-height: 100vh;
+    font-weight: bolder;
+}
+
+.resumeContainer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.resumeHeader {
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}

@@ -1,8 +1,16 @@
-.portfolioContainer {
+.portfolioParentContainer {
     background-color: #e5e5e5;
-    /* #ffb703; */
-    padding: 1.5rem;
-    display: grid;
-    grid-area: content;
     color: black;
+    height: 100vh;
+}
+
+.portfolioContainer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.portfolioHeader {
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
 }

@@ -4,7 +4,7 @@ import Footer from "../footer/Footer";
 
 export default function Layout(props) {
     return (
-        <div class="container-fluid d-flex flex-column vh-100">
+        <div>
             <Nav />
             <Outlet />
             <Footer />
