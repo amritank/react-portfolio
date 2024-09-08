@@ -14,6 +14,7 @@ This is my personal portfolio website built using React. It showcases my project
 
 ## Features
 - **Responsive Design:** Fully responsive layout that adjusts to all screen sizes (desktop, tablet, and mobile).
+- **About Me:** A About Me section with a short description about myself as a software engineer.
 - **Projects Section:** A dedicated section showcasing my projects with descriptions, technologies used, and links to live demos and GitHub repositories.
 - **Skills Section:** A list of my technical skills organized by category.
 - **Contact Form:** Users can easily reach out to me through the contact form integrated into the website.
