@@ -17,7 +17,7 @@ function ProjectCard() {
                 <p className="pdetailscmn">Postgress and express</p>
             </div>
             <div id="project2" className="projectcmn" >
-                <p className="pdetailscmn">Bravissimo</p>
+                <a href="https://bravissimo.onrender.com/" target="_blank">Bravissimo</a>
                 <p className="pdetailscmn">
                     <a href="https://github.com/amritank/bravissimo" target="_blank">
                         <FontAwesomeIcon icon={faGithub} />
@@ -38,7 +38,7 @@ function ProjectCard() {
                 <p className="pdetailscmn">Postgress, React and express</p>
             </div>
             <div id="project4" className="projectcmn" >
-                <p className="pdetailscmn">Weather App</p>
+                <a href="https://amritank.github.io/weather-capp/" target="_blank">Weather App</a>
                 <p className="pdetailscmn">
                     <a href="https://github.com/amritank/weather-capp" target="_blank">
                         <FontAwesomeIcon icon={faGithub} />
@@ -47,7 +47,7 @@ function ProjectCard() {
                 <p className="pdetailscmn">HTML, CSS and Local storage</p>
             </div>
             <div id="project5" className="projectcmn" >
-                <p className="pdetailscmn">Task Board</p>
+                <a href="https://amritank.github.io/ctask-board/" target="_blank">Task Board</a>
                 <p className="pdetailscmn">
                     <a href="https://github.com/amritank/ctask-board" target="_blank">
                         <FontAwesomeIcon icon={faGithub} />
